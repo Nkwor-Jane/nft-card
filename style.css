@@ -1,0 +1,144 @@
+:root{
+    /* primary colors */
+    --softBlue:hsl(215, 51%, 70%);
+    --cyan:hsl(178, 100%, 50%);
+    /* neutral colors */
+    /* main Background */
+    --verydarkblue1: hsl(217, 54%, 11%); 
+    /* card Background */
+    --verydarkblue2: hsl(216, 50%, 16%);
+    /* line */
+    --verydarkblue3: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.65;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: var(--verydarkblue1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: var(--verydarkblue2);
+    border-radius: 10px;
+    display: flex;
+    padding:20px ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.card--imagecontainer{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.card--image{
+    height:270px;
+    width: 250px;
+    border-radius: 10px;
+}
+.card-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5secs ease;
+    background-color: var(--cyan);
+    height:270px;
+    width: 250px;
+    border-radius: 10px;
+}
+/* telling the overlay color to appear on  hover */
+.card--imagecontainer:hover .card-overlay{
+    opacity: 0.4;
+}
+/* tellimg the svg to be centered */
+.card-svg1-fadeInBottom{
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+/* telling the svg to come from the bottom */
+.card--imagecontainer:hover .card-svg1-fadeInBottom{
+    top: 40%;
+    left: 35%;
+    opacity: 1;
+}
+.card-firstsection-heading{
+    text-align: left;
+    color: var(--white);
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+}
+.card-firstsection-heading:hover{
+    color: var(--cyan);
+}
+.card--text{
+    color: var(--softBlue);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.card--secondsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+.card-secondsection-align{
+    display: flex;
+    align-items: center;
+}
+.card-secondsection-cyan{
+    padding-left: 7px;
+    font-size: 12px;
+    color: var(--cyan);
+}
+.card--secondsection-line{
+    padding-left: 7px;
+    font-size: 12px;
+    color: var(--softBlue);
+}
+.card--footer-align{
+    display: flex;
+    align-items: center;
+}
+.card-footer-image{
+    border: var(--white) 1px solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.card-footertext-label{
+    padding: 10px;
+    font-size: 15px;
+    color: var(--softBlue);
+}
+.card-footertext-span{
+    font-size: 15px;
+    color: var(--white);
+}
+.card--ruler{
+    width: 100%;
+    padding: 1px;
+    margin: 10px;
+    background-color: var(--verydarkblue3);
+}
+/* mobile */
+@media only screen and (max-width:375px){
+
+}
