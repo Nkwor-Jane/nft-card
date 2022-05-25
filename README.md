@@ -1,4 +1,4 @@
-#NFT Preview Card
+# NFT Preview Card
 - [Overview](#overview)
 - [Screenshot](#screenshot)
 - [Links](#links)
