@@ -37,7 +37,7 @@ say it made me less confused about which class names are for the elements. Looki
 
 Code Snippet: Some of my CSS and HTML to show BEM
 
-<code
+```
 :root{
     /* primary colors */
     --softBlue:hsl(215, 51%, 70%);
@@ -56,7 +56,7 @@ Code Snippet: Some of my CSS and HTML to show BEM
             <img src="image-avatar.png" alt="avatar" class="card-footer-image">
             <label class="card-footertext-label">Creation of <span class="card-footertext-span">Jules Wyvern</span></label>
  </div>
-<code>
+```
 
 ### Continued development
 
@@ -70,8 +70,8 @@ I will focus on bulding projects from Frontend Mentor challenges and personal pr
 
 ## Author
 
-- Website - [Nkwor Jane](https://chic-lily-20147e.netlify.app/)
-- Frontend Mentor - [@Nkwor-Jane](https://www.frontendmentor.io/profile/@Nkwor-Jane)
+- Website - [Nkwor Jane](https://chic-lily-20147e.netlify.app/).
+- Frontend Mentor - [@Nkwor-Jane](https://www.frontendmentor.io/profile/@Nkwor-Jane).
 
 
 ## Acknowledgments
