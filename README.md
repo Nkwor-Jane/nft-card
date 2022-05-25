@@ -14,7 +14,7 @@
 I used HTML and CSS to build the NFT Preview card from Frontend Mentors
 
 ### Screenshot
-
+![nft-card](https://user-images.githubusercontent.com/69125833/170151439-ae93c93a-ab71-4cc6-8efc-11a3a767aecc.png)
 
 
 
@@ -35,8 +35,9 @@ I used HTML and CSS to build the NFT Preview card from Frontend Mentors
 I put all the colors in root variables. I also tried using the BEM naming conventions in writing my CSS classes. Using this naming conventions for the first time. I can
 say it made me less confused about which class names are for the elements. Looking forward to working with it more in my upcoming projects.
 
-Code Snippet:
+Code Snippet: Some of my CSS and HTML to show BEM
 
+<code
 :root{
     /* primary colors */
     --softBlue:hsl(215, 51%, 70%);
@@ -55,6 +56,7 @@ Code Snippet:
             <img src="image-avatar.png" alt="avatar" class="card-footer-image">
             <label class="card-footertext-label">Creation of <span class="card-footertext-span">Jules Wyvern</span></label>
  </div>
+<code>
 
 ### Continued development
 
